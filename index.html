@@ -10,768 +10,310 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <!-- Welcome Part -->
-    <section class="welcome_part py-1">
-      <div class="container">
-        <div class="welcome_con_main">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="welcome_con text-light text-center text-sm-start">
-                <p>Welcome to Beatles</p>
+    <!-- Header starts -->
+    <section class="header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-4 fw-bold" href="#"
+            ><img src="./assets/img/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mx-auto fs-4">
+              <!-- Added ml-auto class here -->
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Supports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="header_content">
+              <div class="">
+                <div class="d-flex flex-column mt-md-5 pt-md-5">
+                  <h1>Inspire your inspiration</h1>
+                  <h3>Simple to use for your app,</h3>
+                  <h3>Simple to use for your.</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate totam error laboriosam tempore et, quisquam ab,
+                    fugiat eum, iste provident veritatis pariatur quibusdam
+                    corporis esse repellendus animi aliquam similique veniam
+                    assumenda? Fuga.
+                  </p>
+                  <div class="d-flex gap-4">
+                    <a href=""><img src="./assets/img/apple.png" alt="" /></a>
+                    <a href=""><img src="./assets/img/android.png" alt="" /></a>
+                    <a href=""><img src="./assets/img/windows.png" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <img src="./assets/img/iphone.png" class="image" alt="" />
               </div>
             </div>
-
-            <div class="col-sm-6">
-              <ul
-                class="welcome_icon d-flex justify-content-sm-end justify-content-center gap-3 gap-md-4"
-              >
-                <li>
-                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-behance"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                </li>
-              </ul>
+          </div>
+          <div class="carousel-item">
+            <div class="header_content">
+              <div class="">
+                <div class="d-flex flex-column mt-md-5 pt-md-5">
+                  <h1>Inspire your inspiration</h1>
+                  <h3>Simple to use for your app,</h3>
+                  <h3>Simple to use for your.</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate totam error laboriosam tempore et, quisquam ab,
+                    fugiat eum, iste provident veritatis pariatur quibusdam
+                    corporis esse repellendus animi aliquam similique veniam
+                    assumenda? Fuga.
+                  </p>
+                  <div class="d-flex gap-4">
+                    <a href=""><img src="./assets/img/apple.png" alt="" /></a>
+                    <a href=""><img src="./assets/img/android.png" alt="" /></a>
+                    <a href=""><img src="./assets/img/windows.png" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <img src="./assets/img/iphone.png" class="image" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="header_content">
+              <div class="">
+                <div class="d-flex flex-column mt-md-5 pt-md-5">
+                  <h1>Inspire your inspiration</h1>
+                  <h3>Simple to use for your app,</h3>
+                  <h3>Simple to use for your.</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cupiditate totam error laboriosam tempore et, quisquam ab,
+                    fugiat eum, iste provident veritatis pariatur quibusdam
+                    corporis esse repellendus animi aliquam similique veniam
+                    assumenda? Fuga.
+                  </p>
+                  <div class="d-flex gap-4">
+                    <a href=""><img src="./assets/img/apple.png" alt="" /></a>
+                    <a href=""><img src="./assets/img/android.png" alt="" /></a>
+                    <a href=""><img src="./assets/img/windows.png" alt="" /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="">
+                <img src="./assets/img/iphone.png" class="image" alt="" />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Welcome Part End -->
 
-    <!-- -------------------------------------- -->
-
-    <!-- Menu Part -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="assets/img/logo_black.png" alt="" />
-        </a>
         <button
-          class="navbar-toggler"
+          class="carousel-control-prev"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Testimonial</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Menu Part End -->
-
-    <!-- -------------------------------------- -->
-
-    <!-- Hero Part -->
-    <section class="hero_part">
-      <div class="container">
-        <div class="hero_con_main">
-          <div class="row">
-            <div class="col-lg-6 col-md-2"></div>
-            <div class="col-lg-6 col-md-8">
-              <div class="hero_con text-lg-end text-center text-light">
-                <h2>Hi! We Are</h2>
-                <h1>Creative Designer</h1>
-                <p class="pt-2 pb-3">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation.
-                </p>
-                <div class="hero_btn">
-                  <a href="#" class="btn btn-primary btn-lg me-4">hire us</a>
-                  <a href="#" class="btn btn-primary btn-lg">contact</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
-    <!-- Hero Part End -->
-
-    <!-- -------------------------------------- -->
-
-    <!-- About Part -->
-    <section class="about_area py-3 py-md-5">
-      <div class="container">
-        <div class="d-flex justify-content-center pb-4">
-          <div class="about_head text-uppercase">
-            <h3>about us</h3>
-            <div class="divider d-flex gap-1">
-              <div class="div_01"></div>
-              <div class="div_02"></div>
-              <div class="div_03"></div>
-              <div class="div_04"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="about_con_main">
-          <div class="row align-items-center">
-            <div class="col-md-5">
-              <div class="about_img">
-                <img src="assets/img/about_img.png" class="w-100" alt="" />
-              </div>
-            </div>
-            <div class="col-md-7">
-              <div class="about_con">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor ididunt ut labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <p class="pt-3 d-lg-block d-md-none">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                  occaecat cupidatat non proident, sunt in culpa qui
-                  officiaeserunt mollit anim id est laborum. Sed ut perspiciatis
-                  unde omnis iste natus error sit voluptatem accusantium
-                  doloremque laudantium.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- About Part End -->
-
-    <!-- -------------------------------------- -->
-
-    <!-- Service Part -->
-    <section class="service_part py-3 py-md-5">
-      <div class="container">
-        <div class="d-flex justify-content-center pb-4">
-          <div class="about_head text-uppercase">
-            <h3>our services</h3>
-            <div class="divider d-flex gap-1">
-              <div class="div_01"></div>
-              <div class="div_02"></div>
-              <div class="div_03"></div>
-              <div class="div_04"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="service_con_main pt-5">
-          <div class="row gy-5">
-            <div class="col-md-4 col-sm-6">
-              <div class="service_con px-4 pt-5 pb-4 text-center">
-                <div class="service_icon">
-                  <img src="assets/img/Graphics-design.png" alt="" />
-                </div>
-                <h4>Graphic Design</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetpisg elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6">
-              <div class="service_con px-4 pt-5 pb-4 text-center">
-                <div class="service_icon">
-                  <img src="assets/img/Web-Design.png" alt="" />
-                </div>
-                <h4>We Design</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetpisg elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="service_con px-4 pt-5 pb-4 text-center">
-                <div class="service_icon">
-                  <img src="assets/img/seo.png" alt="" />
-                </div>
-                <h4>SEO</h4>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetpisg elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Service Part End -->
-
-    <!-- -------------------------------------- -->
-
-    <!-- Portfolio Part -->
-    <section class="portfolio_part py-3 py-md-5">
-      <div class="container">
-        <div class="d-flex justify-content-center pb-4">
-          <div class="about_head text-uppercase">
-            <h3>our Portfolio</h3>
-            <div class="divider d-flex gap-1">
-              <div class="div_01"></div>
-              <div class="div_02"></div>
-              <div class="div_03"></div>
-              <div class="div_04"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="portfolio_con_main">
-          <div class="row gy-4">
-            <div class="col-md-3 col-6">
-              <div class="portfolio_con">
-                <img
-                  src="assets/img/img1.jpg"
-                  class="w-100"
-                  alt=""
-                />
-                <div class="portfolio_con_overlay">
-                  <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
-              </div>
-              <div class="portfolio_con mt-4">
-                <img
-                  src="assets/img/img2.jpg"
-                  class="w-100"
-                  alt=""
-                />
-                <div class="portfolio_con_overlay">
-                  <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="portfolio_con">
-                <img
-                  src="assets/img/img3.jpg"
-                  class="w-100"
-                  alt=""
-                />
-                <div class="portfolio_con_overlay">
-                  <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
-              </div>
-              <div class="portfolio_con mt-4">
-                <img
-                  src="assets/img/img4.jpg"
-                  class="w-100"
-                 
-                  alt=""
-                />
-                <div class="portfolio_con_overlay">
-                  <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-3 col-6">
-              <div class="portfolio_con">
-                <img
-                  src="assets/img/img5.jpg"
-                  class="w-100"
-                  alt=""
-                />
-                <div class="portfolio_con_overlay">
-                  <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
-              </div>
-              <div class="portfolio_con mt-4">
-                <img
-                  src="assets/img/img6.jpg"
-                  class="w-100"
-                  alt=""
-                />
-                <div class="portfolio_con_overlay">
-                  <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 col-6">
-              <div class="portfolio_con">
-                <img
-                  src="assets/img/img7.jpg"
-                  class="w-100"
-                  alt=""
-                />
-                <div class="portfolio_con_overlay">
-                  <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
-              </div>
-              <div class="portfolio_con mt-4">
-                <img
-                src="assets/img/img8.jpg"
-                  class="w-100"
-                  alt=""
-                />
-                <div class="portfolio_con_overlay">
-                  <a href="#"><i class="fa-solid fa-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Portfolio Part End -->
-
-    <!-- -------------------------------------- -->
-
-    <!-- Team Part -->
-    <section class="team_part py-3 py-md-5">
-      <div class="container">
-        <div class="d-flex justify-content-center pb-4">
-          <div class="about_head text-uppercase">
-            <h3>our team</h3>
-            <div class="divider d-flex gap-1">
-              <div class="div_01"></div>
-              <div class="div_02"></div>
-              <div class="div_03"></div>
-              <div class="div_04"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="team_con_main">
-          <div class="row gy-4">
-            <div class="col-md-4 col-6">
-              <div class="team_con text-center">
-                <div class="team_img">
-                  <img src="assets/img/team_member1.png"  alt="" />
-                  <div class="team_img_overlay">
-                    <ul>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <h4>sajal sharder</h4>
-                <h6>Graphic designer</h6>
-              </div>
-            </div>
-            <div class="col-md-4 col-6">
-              <div class="team_con text-center">
-                <div class="team_img">
-                  <img src="assets/img/team_member2.png"  alt="" />
-                  <div class="team_img_overlay">
-                    <ul>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <h4>sajal sharder</h4>
-                <h6>Graphic designer</h6>
-              </div>
-            </div>
-            <div class="col-md-4 col-6">
-              <div class="team_con text-center">
-                <div class="team_img">
-                 <img src="assets/img/team_member3.png"   alt="" />
-                  <div class="team_img_overlay">
-                    <ul>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <h4>sajal sharder</h4>
-                <h6>Graphic designer</h6>
-              </div>
-            </div>
-            <div class="col-md-4 col-6">
-              <div class="team_con text-center">
-                <div class="team_img">
-                 <img src="assets/img/team_member4.png"   alt="" />
-                  <div class="team_img_overlay">
-                    <ul>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <h4>sajal sharder</h4>
-                <h6>Graphic designer</h6>
-              </div>
-            </div>
-            <div class="col-md-4 col-6">
-              <div class="team_con text-center">
-                <div class="team_img">
-                 <img src="assets/img/team_member1.png"   alt="" />
-                  <div class="team_img_overlay">
-                    <ul>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <h4>sajal sharder</h4>
-                <h6>Graphic designer</h6>
-              </div>
-            </div>
-            <div class="col-md-4 col-6">
-              <div class="team_con text-center">
-                <div class="team_img">
-                  <img src="assets/img/team_member2.png"  alt="" />
-                  <div class="team_img_overlay">
-                    <ul>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <h4>sajal sharder</h4>
-                <h6>Graphic designer</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Team Part End -->
-
-    <!-- -------------------------------------- -->
-
-    <!-- Testimonial Part -->
-    <section class="testimonial_part py-3 py-md-5">
-      <div class="container">
-        <div class="d-flex justify-content-center pb-4">
-          <div class="about_head text-uppercase">
-            <h3>testimonial</h3>
-            <div class="divider d-flex gap-1">
-              <div class="div_01"></div>
-              <div class="div_02"></div>
-              <div class="div_03"></div>
-              <div class="div_04"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testi_con_main">
-          <div class="row gy-4">
-            <div class="col-sm-6">
-              <div class="testi_img text-center">
-                <img src="assets/img/testi_img.png" alt="" />
-              </div>
-
-              <div class="testi_con text-center">
-                <div class="indicator"></div>
-                <h4>shahin alam</h4>
-                <ul class="testi_icon d-flex gap-2 justify-content-center">
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star-half"></i></li>
-                </ul>
-                <h5>chairman</h5>
-                <h6>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incidunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </h6>
-              </div>
-            </div>
-
-            <div class="col-sm-6">
-              <div class="testi_img text-center">
-                <img src="assets/img/testi_img.png" alt="" />
-              </div>
-
-              <div class="testi_con text-center">
-                <div class="indicator"></div>
-                <h4>shahin alam</h4>
-                <ul class="testi_icon d-flex gap-2 justify-content-center">
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star"></i></li>
-                  <li><i class="fa-solid fa-star-half"></i></li>
-                </ul>
-                <h5>chairman</h5>
-                <h6>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incidunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Testimonial Part End -->
-
-    <!-- -------------------------------------- -->
-
-    <!-- Contact Part -->
-    <section class="bottom_area">
-      <div class="container">
-        <div class="bottom_con_main">
-          <div class="row gy-4">
-            <div class="col-xl-3 col-lg-4 col">
-              <div class="bottom_head pb-3">
-                <img src="assets/img/logo_white.png" alt="" />
-              </div>
-              <div class="bottom_con text-white">
-                <p>
-                  Lorem ipsum dolor sit amet, conser adipisicing elit, sed do
-                  eiumod apor incididunt ut labore et dolore magna aliqua.
-                  eiumod apor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <p class="pt-2">
-                  Lorem ipsum dolor sit amet, conser adipisicing elit.Lorem ipsum dolor sit amet, conser adipisicing elit.
-                </p>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col">
-              <div class="bottom_head pb-1 pb-md-3">
-                <h4 class="text-white">Contact us</h4>
-              </div>
-              <div class="bottom_con text-white">
-                <ul class="d-flex align-items-center gap-3">
-                  <li>
-                    <div class="bottom_icon">
-                      <i class="fa-solid fa-phone"></i>
-                    </div>
-                  </li>
-                  <li>
-                    <p>(+880) 17345 59870</p>
-                    <p>(+880) 17345 59870</p>
-                  </li>
-                </ul>
-                <ul class="d-flex align-items-center gap-3 py-3">
-                  <li>
-                    <div class="bottom_icon">
-                      <i class="fa-solid fa-envelope"></i>
-                    </div>
-                  </li>
-                  <li>
-                    <p>beatlsinfo@gmail.com</p>
-                    <p>contact.beatlsinfo@mail.com</p>
-                  </li>
-                </ul>
-                <ul class="d-flex align-items-center gap-3">
-                  <li>
-                    <div class="bottom_icon">
-                      <i class="fa-solid fa-earth"></i>
-                    </div>
-                  </li>
-                  <li>
-                    <p>(+880) 17345 59870</p>
-                    <p>(+880) 17345 59870</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-2 col-lg-4 col-sm-6">
-              <div class="bottom_head pb-1 pb-md-3">
-                <h4 class="text-white">Important Links</h4>
-              </div>
-              <div class="bottom_con text-white">
-                <ul class="d-flex gap-1 gap-md-3">
-                  <li>
-                    <a href="#">Home</a>
-                    <a href="#">About us</a>
-                    <a href="#">Portfolio</a>
-                    <a href="#">Our team</a>
-                    <a href="#">Blog</a>
-                  </li>
-                  <li>
-                    <a href="#">Pricing</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Feedback</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-sm-6 mx-xl-0 mx-md-auto">
-              <div class="bottom_head pb-1 pb-md-3">
-                <h4 class="text-white">Flickr Photos</h4>
-              </div>
-              <div class="bottom_con text-white">
-                <div class="row g-1 g-md-4">
-                  <div class="col-4 col-md-4">
-                    <div class="footer_gly">
-                      <img
-                        src="assets/img/flicker_image1.jpg"
-                        class="w-100"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div class="col-4 col-md-4">
-                    <div class="footer_gly">
-                      <img
-                      src="assets/img/flicker_image2.jpg"
-                        class="w-100"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div class="col-4 col-md-4">
-                    <div class="footer_gly">
-                      <img
-                        src="assets/img/flicker_image3.jpg"
-                        class="w-100"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div class="col-4 col-md-4">
-                    <div class="footer_gly">
-                      <img
-                         src="assets/img/flicker_image4.jpg"
-                        class="w-100"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div class="col-4 col-md-4">
-                    <div class="footer_gly">
-                      <img
-                         src="assets/img/flicker_image5.jpg"
-                        class="w-100"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <div class="col-4 col-md-4">
-                    <div class="footer_gly">
-                      <img
-                         src="assets/img/flicker_image6.jpg"
-                        class="w-100"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Contact Part End -->
-
-    <!-- -------------------------------------- -->
-
-    <!-- Footer Part -->
-    <footer class="footer_part py-3">
-      <div class="footer_con">
-        <p class="text-center text-white">
-          Copyright &copy; 2023. All rights reserved by <a href="#"><span class="text-warning">Ferdows Ahmmed</span> </a>
+    <!-- Header ends -->
+    <!-- Features starts -->
+    <section class="features">
+      <div class="text-center w-md-50 mt-2 mx-auto">
+        <h1>Tinyone features</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+          reiciendis vero laboriosam atque quos illum iste, dolores.
         </p>
       </div>
-    </footer>
-    <!-- Footer Part End -->
+      <div class="row g-2">
+        <div
+          class="shadow p-5 col-md-4 d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center align-items-md-start"
+        >
+          <img src="./assets/img/phone.png" alt="" />
+          <div class="feature_text">
+            <h5>Fully Responsive</h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+              consectetur.Lorem ipsum dolor, sit amet consectetur adipisicing
+              elit. Nemo, consectetur.
+            </p>
+          </div>
+        </div>
+        <div
+        class="shadow p-5 col-md-4 d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center align-items-md-start"
+      >
+          <img src="./assets/img/layer.png" alt="" />
+          <div class="feature_text">
+            <h5>Fully Responsive</h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+              consectetur.Lorem ipsum dolor, sit amet consectetur adipisicing
+              elit. Nemo, consectetur.
+            </p>
+          </div>
+        </div>
+        <div
+        class="shadow p-5 col-md-4 d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center align-items-md-start"
+      >
+          <img src="./assets/img/awesome.png" alt="" />
+          <div class="feature_text">
+            <h5>Fully Responsive</h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+              consectetur.Lorem ipsum dolor, sit amet consectetur adipisicing
+              elit. Nemo, consectetur.
+            </p>
+          </div>
+        </div>
+        <div
+          class="shadow p-5 col-md-4 d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center align-items-md-start"
+        >
+          <img src="./assets/img/phone.png" alt="" />
+          <div class="feature_text">
+            <h5>Fully Responsive</h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+              consectetur.Lorem ipsum dolor, sit amet consectetur adipisicing
+              elit. Nemo, consectetur.
+            </p>
+          </div>
+        </div>
+        <div
+        class="shadow p-5 col-md-4 d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center align-items-md-start"
+      >
+          <img src="./assets/img/layer.png" alt="" />
+          <div class="feature_text">
+            <h5>Fully Responsive</h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+              consectetur.Lorem ipsum dolor, sit amet consectetur adipisicing
+              elit. Nemo, consectetur.
+            </p>
+          </div>
+        </div>
+        <div
+        class="shadow p-5 col-md-4 d-flex flex-column flex-md-row gap-3 justify-content-center align-items-center align-items-md-start"
+      >
+          <img src="./assets/img/awesome.png" alt="" />
+          <div class="feature_text">
+            <h5>Fully Responsive</h5>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo,
+              consectetur.Lorem ipsum dolor, sit amet consectetur adipisicing
+              elit. Nemo, consectetur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features ends -->
+    <!-- Footer starts -->
+    <section class="footer">
+      <div class="text-center mt-2 w-md-50 mx-md-auto">
+        <h2>Keep in touch with us</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+          reiciendis vero laboriosam atque quos illum iste, dolores.
+        </p>
+      </div>
+      <form class="d-flex gap-2 flex-md-row flex-column justify-content-center" action="">
+        <input class="w-md-50 p-1" type="text">
+        <button class="p-1">submit</button>
+      </form>
+      <div class="d-flex gap-4 justify-content-center pt-4 ">
+        <a href=""><img class="rounded-2" src="./assets/img/fb.png" alt="" /></a>
+        <a href=""><img class="rounded-2" src="./assets/img/twiter.png" alt="" /></a>
+        <a href=""><img class="rounded-2" src="./assets/img/google.png" alt="" /></a>
+        <a href=""><img class="rounded-2" src="./assets/img/piinterest.png" alt="" /></a>
+      </div>
+      <div class="footer_menu d-flex flex-md-row flex-column justify-content-md-between mt-5 mt-md-5">
+       <ul class="footer_menus">
+        <li><a href="">HAVIETNAM LTD</a> </li>
+        <li><a href="">66, Dang Van, Dong Da</a> </li>
+        <li><a href="">Hanoi, Nietnam</a> </li>
+        <li><a href="">contact@abc.com</a> </li>
+        <li><a href="">+844351149182</a> </li>
+       </ul>
+       <ul class="footer_menus">
+        <li> Example</li>
+        <li>Shop</li>
+        <li>License</li>
+       </ul>
+       <ul class="footer_menus">
+        <li>Contact</li>
+        <li>About</li>
+        <li>Privacy</li>
+        <li>Terms</li>
+       </ul>
+       <ul class="footer_menus">
+        <li> Download</li>
+        <li>Support</li>
+        <li>Documents</li>
+       </ul>
+      </div>
+    </section>
+    <!-- Footer ends -->
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
-
-<!-- 
-    text-center
-    text-sm-center
-    text-md-center
-    text-lg-center
-    text-xl-center
-    text-xxl-center
-
-    formula 1 => 
- -->

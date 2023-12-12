@@ -1,379 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap');
-
-/* Common area */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald', sans-serif;
+.header{
+    background-color: #e9d901;
+    padding: 20px 100px 50px 100px;
 }
-p {
-    margin: 0;
+.menu li{
+list-style: none;
 }
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-a {
+.menu li a{
     text-decoration: none;
-    color: #000;
 }
-:root {
-    --mainColor: #0771b9;
-    --secondColor: #5bc5f3;
-    --oswald: 'Oswald', sans-serif;
+.header_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-/* Common area End */
-
-/* Welcome Part */
-.welcome_part {
-    background: var(--mainColor);
+.features{
+    /* background-color: #e9d901; */
+    padding: 80px 100px 80px 100px;
 }
-.welcome_icon li a {
-    color: #e7e7e7;
-    transition: .4s;
+.footer{
+     background-color: #131312; 
+     color: aliceblue;
+    padding: 20px 100px 50px 100px;
 }
-.welcome_icon li a:hover {
-    color: #353535;
-}
-/* Welcome Part End */
-
-/* Navbar Start */
-.nav-link:hover {
-    color: var(--mainColor);
-}
-/* Navbar End */
-
-/* Hero Part */
-.hero_part {
-    background: url(../img/hero_bg.jpg) no-repeat center;
-    background-size: cover;
-    padding: 120px 0;
-}
-.hero_con h2 {
-    font-size: 40px;
-    text-transform: uppercase;
-}
-.hero_con h1 {
-    font-size: 56px;
-    text-transform: uppercase;
-}
-.hero_con p {
-    font-size: 18px;
-    line-height: 30px;
-}
-.hero_btn a {
-    background: transparent;
-    border-color: white;
-    border-radius: 0;
-    font-family: var(--oswald);
-    text-transform: uppercase;
-    font-size: 18px;
-}
-.hero_btn a:hover {
-    background: var(--mainColor);
-    border-color: var(--mainColor);
-}
-/* Hero Part End */
-
-
-/* About Part Start */
-.div_01 {
-    height: 4px;
-    width: 47px;
-    background: var(--mainColor);
-}
-.div_02 {
-    height: 4px;
-    width: 10px;
-    background: var(--mainColor);
-}
-.div_03 {
-    height: 4px;
-    width: 6px;
-    background: var(--mainColor);
-}
-.div_04 {
-    height: 4px;
-    width: 4px;
-    background: var(--mainColor);
-}
-.about_head h3 {
-    font-size: 32px;
-    color: #353535;
-    line-height: 32px;
-}
-
-.about_con p {
-    font-size: 16px;
-    color: #555;
-}
-/* About Part End */
-
-
-/* Service Part */
-.service_con {
-    background: #f1f1f1;
-    position: relative;
-    transition: .5s;
-}
-.service_icon {
-    height: 82px;
-    width: 82px;
-    background: #f1f1f1;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -41px;
-    left: 50%;
-    transform: translate(-50%);
-    border: 8px double white;
-    transition: .4s;
-}
-.service_con:hover .service_icon {
-    background: var(--secondColor);
-}
-.service_con:hover {
-    box-shadow: 0 0 24px 6px rgba(0, 0, 0, 0.2);
-}
-.service_con h4 {
-    font-size: 22px;
-    color: #353535;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-.service_con p {
-    font-size: 16px;
-    color: #555;
-}
-/* Service Part End */
-
-/* Portfolio Part */
-.portfolio_con {
-    position: relative;
-}
-.portfolio_con:hover .portfolio_con_overlay {
-    visibility: visible;
-    opacity: 1;
-}
-.portfolio_con_overlay {
-    transition: .5s;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.60);
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;
-    opacity: 0;
-}
-.portfolio_con_overlay a {
-    height: 40px;
-    width: 40px;
-    background: var(--secondColor);
-    border-radius: 50%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* Portfolio Part End */
-
-/* Team Part */
-.team_con h4 {
-    font-size: 22px;
-    color: #353535;
-    text-transform: uppercase;
-}
-.team_con h6 {
-    font-size: 18px;
-    color: #555;
-}
-
-.team_img {
-    position: relative;
-    transition: .4s;
-}
-.team_img img{
-height: 350px;
-width: 250px;
-}
-.team_img:hover {
-    box-shadow: 0 0 26px 5px rgba(0, 0, 0, 0.26);
-}
-.team_img_overlay {
-    height: 100%;
-    width: 33.33%;
-    background: rgba(199, 113, 0, 0.89);
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;
-    opacity: 0;
-    transition: .5s;
-}
-.team_img:hover .team_img_overlay {
-    visibility: visible;
-    opacity: 1;
-}
-.team_img_overlay a {
-    height: 40px;
-    width: 40px;
-    background: transparent;
-    border: 1px solid white;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    margin: 5px 0;
-    transition: .5s;
-}
-.team_img_overlay a:hover {
-    background: var(--secondColor);
-    border-color: var(--secondColor);
-}
-.team_img ~ h4 {
-    transition: .5s;
-}
-.team_img:hover ~ h4 {
-    color: var(--secondColor);
-}
-/* Team Part End */
-
-
-/* Testimonial Part */
-.testi_con {
-    background: #f1f1f1;
-    padding: 20px;
-    margin-top: 40px;
-    position: relative;
-}
-.testi_con .indicator {
-    height: 30px;
-    width: 30px;
-    background: #f1f1f1;
-    transform: translateX(-50%) rotate(45deg);
-    position: absolute;
-    top: -15px;
-    left: 50%;
-}
-.testi_con h4 {
-    font-size: 24px;
-    color: #353535;
-    text-transform: uppercase;
-}
-.testi_icon li {
-    color: var(--secondColor);
-}
-.testi_con h5,
-.testi_con h6 {
-    font-size: 18px;
-    color: #555;
-    text-transform: capitalize;
-}
-/* Testimonial Part End */
-
-
-/* Bottom Part */
-.bottom_area {
-    padding: 20px 0;
-    background: #353535;
-}
-.bottom_icon {
-    height: 40px;
-    width: 40px;
-    background: var(--secondColor);
-    border-radius: 50%;
-    color: #fff;
-    text-align: center;
-    line-height: 40px;
-}
-.bottom_con ul li a {
-    display: block;
-    color: white;
-    padding: 5px 0;
-    transition: .4s;
-}
-.bottom_con ul li a:hover {
-    color: var(--secondColor);
-}
-/* Bottom Part End */
-
-/* Footer Part */
-.footer_part {
-    background: #555;
-}
-.footer_con a {
-    color: var(--secondColor);
-}
-.bottom_con_main p{
-    text-align: justify;
-}
-/* Footer Part End */
-@media (max-width:575px) {
-    .hero_con h2 {
-        font-size: 25px;
-        text-transform: uppercase;
+.footer_menus li{
+    list-style: none;
     }
-    .hero_con h1 {
-        font-size: 36px;
-        text-transform: uppercase;
+    .footer_menus li a{
+        text-decoration: none;
+        color: aliceblue;
     }
-    .hero_part {
-        background: url(../img/hero_bg.jpg) no-repeat center;
-        background-size: cover;
-        padding: 60px 0;
+    .carousel-indicators button{
+        width: 50px;
+        height: 50px;
     }
-    .hero_con p {
-        font-size: 15px;
-        line-height: 20px;
+@media(max-width:575px){
+    .header{
+        background-color: #e9d901;
+        padding: 5px 10px 5px 20px;
     }
-    .hero_btn a {
-        background: transparent;
-        border-color: white;
-        border-radius: 0;
-        font-family: var(--oswald);
-        text-transform: uppercase;
-        font-size: 12px;
-        padding: 5px;
+    .menu li{
+    list-style: none;
     }
-    .about_head h3 {
-        font-size: 25px;
-        color: #353535;
-        line-height: 15px;
+    .menu li a{
+        text-decoration: none;
     }
-    .about_con p {
-        font-size: 15px;
-        color: #555;
+    .header_content{
+        padding-top: unset;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
     }
-    .team_img img{
-        height: 200px;
-        width: 150px;
-        }
-        .footer_con p{
-        font-size: 12px;
-        }
-        .team_con h4 {
-            font-size: 18px;
-            color: #353535;
-            text-transform: uppercase;
-            margin-bottom: -1px;
-        }
-        .team_con h6 {
-            font-size: 13px;
-            color: #555;
-        }
+ 
+    .features{
+        /* background-color: #e9d901; */
+        padding: 5px 10px 5px 10px;
+    }
+    .box{
+        /* background-color: #e9d901; */
+        box-shadow: 0px 10px 15px -3px rgba(5,9,10,.2);
+    }
+    .footer{
+        background-color: #131312; 
+        color: aliceblue;
+       padding: 5px 10px 5px 10px;  
+   }
+   .footer_menus li{
+       list-style: none;
+       }
+       .footer_menus li a{
+           text-decoration: none;
+           color: aliceblue;
+       }
 }
